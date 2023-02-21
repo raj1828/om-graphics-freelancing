@@ -54,8 +54,6 @@ function showSlides(n) {
 // setTimeout(showSlides, 2000); // Change image every 2 seconds
 //}
 
-
-
 // Gallery
 let list = document.querySelectorAll(".list");
 let itemBox = document.querySelectorAll(".itemBox");
@@ -87,7 +85,6 @@ for (let i = 0; i < list.length; i++) {
   }
 }
 
-
 //fullscreen image preview function
 //selecting all required elements
 const previewBox = document.querySelector(".preview-box"),
@@ -111,3 +108,5 @@ function preview(element) {
     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
   };
 }
+
+// Portfolio
